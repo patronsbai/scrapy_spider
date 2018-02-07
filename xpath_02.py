@@ -8,7 +8,6 @@ def getHtml(url):
     page = urllib.urlopen(url)
     html = page.read()
     return html
-git
 
 if __name__ == '__main__':
 
